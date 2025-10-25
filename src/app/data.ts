@@ -2,16 +2,16 @@ import { Icons } from "@/components/icons";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export const personalData = {
-  name: "Rushikesh Sanjay Patil",
-  title: "Full-Stack Developer",
-  intro: "An innovative and detail-oriented Full-Stack Developer with a strong foundation in MERN stack development, crafting seamless and robust web applications.",
-  about: "An enthusiastic Full-Stack Developer with a strong foundation in MERN stack development. Passionate about building modern, responsive, and user-friendly web applications. I have experience working with technologies like React.js, Node.js, Express.js, and MongoDB to create full-featured applications from scratch. I am a quick learner, a collaborative team player, and am always eager to take on new challenges and expand my skillset in the ever-evolving world of technology.",
-  email: "rushikeshpatil5589@gmail.com",
-  phone: "+91 9307077366",
-  resumeUrl: "https://docs.google.com/uc?export=download&id=1bfPea_SBbc1ppVN44BsHy49AmuYp86B0",
+  name: "Preethi G",
+  title: "AI & Data Science Student | Full-Stack Developer",
+  intro: "A passionate and driven student pursuing a Bachelor of Technology in Artificial Intelligence and Data Science, with an interest in Computer Vision and Full Stack Development.",
+  about: "A passionate and driven student pursuing a Bachelor of Technology in Artificial Intelligence and Data Science. Skilled in various programming languages, machine learning frameworks, and web development technologies. Eager to apply my knowledge to solve real-world problems and contribute to innovative projects in Artificial Intelligence, Computer Vision, and Full Stack Development.",
+  email: "preethignanavel26@gmail.com",
+  phone: "+91 8667327395",
+  resumeUrl: "https://drive.google.com/file/d/1bfPea_SBbc1ppVN44BsHy49AmuYp86B0/view?usp=drive_link",
   socials: [
     { name: "GitHub", url: "https://github.com/rushikesh-patil-5589", icon: Icons.Github },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/rushikesh-patil-3532a822b", icon: Icons.Linkedin },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/preethi-gnanavel", icon: Icons.Linkedin },
   ],
 };
 
@@ -23,43 +23,47 @@ export const navigationLinks = [
 ];
 
 export const skills = [
+  { name: "Python", icon: Icons.Code },
+  { name: "Java", icon: Icons.Code },
+  { name: "SQL", icon: Icons.Server },
+  { name: "TensorFlow", icon: Icons.React },
+  { name: "Keras", icon: Icons.React },
+  { name: "PyTorch", icon: Icons.React },
+  { name: "OpenCV", icon: Icons.Code },
+  { name: "scikit-learn", icon: Icons.Code },
   { name: "HTML", icon: Icons.Code },
   { name: "CSS", icon: Icons.Palette },
-  { name: "JavaScript", icon: Icons.Code },
-  { name: "React.js", icon: Icons.React },
-  { name: "Node.js", icon: Icons.NodeJs },
-  { name: "Express.js", icon: Icons.Express },
+  { name: "Figma", icon: Icons.Figma },
+  { name: "Flask", icon: Icons.Code },
   { name: "MongoDB", icon: Icons.MongoDB },
-  { name: "Tailwind CSS", icon: Icons.Tailwind },
-  { name: "Git", icon: Icons.GitBranch },
   { name: "GitHub", icon: Icons.Github },
-  { name: "RESTful APIs", icon: Icons.Route },
-  { name: "Redux", icon: Icons.Redux },
+  { name: "Power BI", icon: Icons.BarChart },
+  { name: "Tableau", icon: Icons.BarChart },
 ];
 
 const findImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 export const projects = [
   {
-    title: "Book Store Application",
-    description: "A full-stack web application built with the MERN stack. It allows users to browse, add, update, and delete books from a database. Features include user authentication and a responsive user interface.",
-    image: findImage("bookstore"),
-    tags: ["MERN", "React", "Node.js", "Express", "MongoDB"],
-    githubUrl: "https://github.com/rushikesh-patil-5589/book-store-mern",
-  },
-  {
-    title: "Real-time Chat Application",
-    description: "Developed a real-time chat application using the MERN stack and Socket.io. Implemented user authentication and enabled real-time messaging between users. Focused on creating a seamless and interactive user experience.",
+    title: "Speech-to-Text Web Application",
+    description: "A web application that converts speech to text in real-time, built with Flask and the WebSpeech API. Winner of multiple awards.",
     image: findImage("chatapp"),
-    tags: ["MERN", "Socket.io", "React", "Node.js", "Real-time"],
-    githubUrl: "https://github.com/rushikesh-patil-5589/chat-app-mern",
+    tags: ["Flask", "WebSpeech API", "Python", "HTML/CSS"],
+    githubUrl: "https://github.com/your-username/speech-to-text-app",
   },
   {
-    title: "Nike Landing Page",
-    description: "Created a visually appealing and responsive landing page for Nike using React.js and Tailwind CSS. This project showcases modern UI design principles and a mobile-first approach to web development.",
-    image: findImage("nike"),
-    tags: ["React", "Tailwind CSS", "UI/UX"],
-    githubUrl: "https://github.com/rushikesh-patil-5589/nike-landing-page",
+    title: "Drowsy Guard: AI Drowsiness Detection",
+    description: "An AI-driven system to detect driver drowsiness in real-time using OpenCV and Python to enhance road safety.",
+    image: findImage("drowsy-guard"),
+    tags: ["OpenCV", "Python", "AI", "Computer Vision"],
+    githubUrl: "https://github.com/your-username/drowsy-guard",
+  },
+  {
+    title: "AI-Based M-Sand Quality Monitoring",
+    description: "A system to monitor the quality of M-Sand using a CNN model. Built with a React frontend and a Flask backend.",
+    image: findImage("quality-monitoring"),
+    tags: ["React", "Flask", "CNN", "AI"],
+    githubUrl: "https://github.com/your-username/msand-quality-monitoring",
   },
 ];
 

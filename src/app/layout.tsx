@@ -3,9 +3,9 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Rushikesh Patil | Personal Portfolio",
-  description: "Personal portfolio of Rushikesh Sanjay Patil, a Full-Stack Developer.",
-  keywords: ["Full-Stack Developer", "React Developer", "MERN Stack", "Rushikesh Patil", "Portfolio"]
+  title: "Preethi G | Personal Portfolio",
+  description: "Personal portfolio of Preethi G, an AI & Data Science student.",
+  keywords: ["AI Developer", "Data Scientist", "Full-Stack Developer", "Preethi G", "Portfolio"]
 };
 
 export default function RootLayout({

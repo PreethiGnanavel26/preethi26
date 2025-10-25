@@ -10,13 +10,19 @@
       "id": "chatapp",
       "description": "Screenshot of a real-time chat application",
       "imageUrl": "https://images.unsplash.com/photo-1594035519981-62c9cef33ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGF0JTIwYnViYmxlc3xlbnwwfHx8fDE3NjEzNDMxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chat bubbles"
+      "imageHint": "speech bubbles"
     },
     {
-      "id": "nike",
-      "description": "Screenshot of a Nike landing page",
-      "imageUrl": "https://images.unsplash.com/photo-1469395446868-fb6a048d5ca3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxydW5uaW5nJTIwc2hvZXxlbnwwfHx8fDE3NjEzMzIyNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "running shoe"
+      "id": "drowsy-guard",
+      "description": "Image representing AI and computer vision for drowsiness detection",
+      "imageUrl": "https://images.unsplash.com/photo-1696517170961-661e9dca962e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMHZpc2lvbnxlbnwwfHx8fDE3NjE0MDgwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI vision"
+    },
+    {
+      "id": "quality-monitoring",
+      "description": "Image representing quality monitoring with AI",
+      "imageUrl": "https://images.unsplash.com/photo-1758873263563-5ba4aa330799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxxdWFsaXR5JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjEzNzM4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quality inspection"
     }
   ]
 }

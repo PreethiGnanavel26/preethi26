@@ -14,6 +14,7 @@ import {
   ArrowRight,
   Download,
   Send,
+  BarChart,
 } from "lucide-react";
 
 export const Icons = {
@@ -31,6 +32,7 @@ export const Icons = {
   ArrowRight,
   Download,
   Send,
+  BarChart,
   React: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="12" r="2"></circle>
@@ -68,6 +70,13 @@ export const Icons = {
         <path d="M12 2c-3.87 0-7 2.24-7 5v10c0 2.76 3.13 5 7 5s7-2.24 7-5V7c0-2.76-3.13-5-7-5z" />
         <path d="M12 12a3 3 0 0 0 0-6" />
         <path d="M12 12a3 3 0 0 1 0 6" />
+    </svg>
+  ),
+  Figma: (props: LucideProps) => (
+    <svg {...props} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>
+      <path d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/>
+      <path d="M12 9a3 3 0 0 0-3 3"/>
     </svg>
   ),
 };
