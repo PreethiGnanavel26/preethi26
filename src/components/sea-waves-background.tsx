@@ -8,8 +8,6 @@ export function SeaWavesBackground() {
         </defs>
         <g className="parallax">
           <use xlinkHref="#gentle-wave" x="48" y="0" />
-          <use xlinkHref="#gentle-wave" x="48" y="3" />
-          <use xlinkHref="#gentle-wave" x="48" y="5" />
           <use xlinkHref="#gentle-wave" x="48" y="7" />
         </g>
       </svg>
