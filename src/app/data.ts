@@ -10,7 +10,7 @@ export const personalData = {
   phone: "+918667327395",
   resumeUrl: "https://drive.google.com/file/d/1bfPea_SBbc1ppVN44BsHy49AmuYp86B0/view?usp=drive_link",
   socials: [
-    { name: "GitHub", url: "https://github.com/rushikesh-patil-5589", icon: Icons.Github },
+    { name: "GitHub", url: "https://github.com/PreethiGnanavel26", icon: Icons.Github },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/preethi-gnanavel", icon: Icons.Linkedin },
   ],
 };
@@ -74,21 +74,21 @@ export const projects = [
     description: "A web application that converts speech to text in real-time, built with Flask and the WebSpeech API. Winner of multiple awards.",
     image: findImage("chatapp"),
     tags: ["Flask", "WebSpeech API", "Python", "HTML/CSS"],
-    githubUrl: "https://github.com/your-username/speech-to-text-app",
+    githubUrl: "https://github.com/PreethiGnanavel26/speech-to-text-app",
   },
   {
     title: "Drowsy Guard: AI Drowsiness Detection",
     description: "An AI-driven system to detect driver drowsiness in real-time using OpenCV and Python to enhance road safety.",
     image: findImage("drowsy-guard"),
     tags: ["OpenCV", "Python", "AI", "Computer Vision"],
-    githubUrl: "https://github.com/your-username/drowsy-guard",
+    githubUrl: "https://github.com/PreethiGnanavel26/drowsy-guard",
   },
   {
     title: "AI-Based M-Sand Quality Monitoring",
     description: "A system to monitor the quality of M-Sand using a CNN model. Built with a React frontend and a Flask backend.",
     image: findImage("quality-monitoring"),
     tags: ["React", "Flask", "CNN", "AI"],
-    githubUrl: "https://github.com/your-username/msand-quality-monitoring",
+    githubUrl: "https://github.com/PreethiGnanavel26/msand-quality-monitoring",
   },
 ];
 
