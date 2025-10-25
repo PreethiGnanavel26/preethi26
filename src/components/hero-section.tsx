@@ -5,7 +5,7 @@ import { Icons } from "./icons";
 
 export function HeroSection() {
   return (
-    <section id="home" className="py-20 sm:py-24 md:py-32 lg:py-40">
+    <section id="home" className="relative flex items-center justify-center h-screen min-h-[500px]">
       <div className="container mx-auto text-center px-4">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-bold text-primary leading-tight">
           {personalData.name}
