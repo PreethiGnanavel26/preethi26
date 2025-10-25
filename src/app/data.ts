@@ -22,24 +22,49 @@ export const navigationLinks = [
   { name: "Contact", href: "#contact" },
 ];
 
-export const skills = [
-  { name: "Python", icon: Icons.Code },
-  { name: "Java", icon: Icons.Code },
-  { name: "SQL", icon: Icons.Server },
-  { name: "TensorFlow", icon: Icons.React },
-  { name: "Keras", icon: Icons.React },
-  { name: "PyTorch", icon: Icons.React },
-  { name: "OpenCV", icon: Icons.Code },
-  { name: "scikit-learn", icon: Icons.Code },
-  { name: "HTML", icon: Icons.Code },
-  { name: "CSS", icon: Icons.Palette },
-  { name: "Figma", icon: Icons.Figma },
-  { name: "Flask", icon: Icons.Code },
-  { name: "MongoDB", icon: Icons.MongoDB },
-  { name: "GitHub", icon: Icons.Github },
-  { name: "Power BI", icon: Icons.BarChart },
-  { name: "Tableau", icon: Icons.BarChart },
+export const categorizedSkills = [
+  {
+    category: "Languages",
+    skills: [
+      { name: "Python", level: 90 },
+      { name: "Java", level: 80 },
+      { name: "SQL", level: 85 },
+    ],
+  },
+  {
+    category: "ML/DL Frameworks",
+    skills: [
+      { name: "TensorFlow", level: 85 },
+      { name: "Keras", level: 80 },
+      { name: "PyTorch", level: 75 },
+      { name: "OpenCV", level: 90 },
+      { name: "scikit-learn", level: 85 },
+    ],
+  },
+  {
+    category: "Web Development",
+    skills: [
+      { name: "HTML", level: 95 },
+      { name: "CSS", level: 85 },
+      { name: "Flask", level: 80 },
+    ],
+  },
+  {
+    category: "Databases",
+    skills: [
+      { name: "MongoDB", level: 75 },
+    ],
+  },
+  {
+    category: "Design & Visualization",
+    skills: [
+      { name: "Figma", level: 70 },
+      { name: "Power BI", level: 80 },
+      { name: "Tableau", level: 75 },
+    ],
+  },
 ];
+
 
 const findImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
