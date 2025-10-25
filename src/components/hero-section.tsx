@@ -5,15 +5,15 @@ import { Icons } from "./icons";
 
 export function HeroSection() {
   return (
-    <section id="home" className="py-24 md:py-32 lg:py-40">
+    <section id="home" className="py-20 sm:py-24 md:py-32 lg:py-40">
       <div className="container mx-auto text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-headline font-bold text-primary leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-bold text-primary leading-tight">
           {personalData.name}
         </h1>
-        <p className="mt-4 text-xl md:text-2xl text-muted-foreground font-medium">
+        <p className="mt-4 text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium">
           {personalData.title}
         </p>
-        <p className="mt-6 max-w-2xl mx-auto text-lg text-foreground">
+        <p className="mt-6 max-w-3xl mx-auto text-base md:text-lg text-foreground">
           {personalData.intro}
         </p>
         

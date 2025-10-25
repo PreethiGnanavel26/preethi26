@@ -7,7 +7,7 @@ export const personalData = {
   intro: "A passionate and driven student pursuing a Bachelor of Technology in Artificial Intelligence and Data Science, with an interest in Computer Vision and Full Stack Development.",
   about: "A passionate and driven student pursuing a Bachelor of Technology in Artificial Intelligence and Data Science. Skilled in various programming languages, machine learning frameworks, and web development technologies. Eager to apply my knowledge to solve real-world problems and contribute to innovative projects in Artificial Intelligence, Computer Vision, and Full Stack Development.",
   email: "preethignanavel26@gmail.com",
-  phone: "+91 8667327395",
+  phone: "+918667327395",
   resumeUrl: "https://drive.google.com/file/d/1bfPea_SBbc1ppVN44BsHy49AmuYp86B0/view?usp=drive_link",
   socials: [
     { name: "GitHub", url: "https://github.com/rushikesh-patil-5589", icon: Icons.Github },

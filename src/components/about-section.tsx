@@ -7,7 +7,7 @@ export function AboutSection() {
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-8 text-primary">
           About Me
         </h2>
-        <p className="text-center text-lg md:text-xl text-muted-foreground leading-relaxed">
+        <p className="text-base md:text-lg lg:text-xl text-center text-muted-foreground leading-relaxed">
           {personalData.about}
         </p>
       </div>

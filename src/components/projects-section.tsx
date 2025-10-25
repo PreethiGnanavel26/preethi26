@@ -9,12 +9,12 @@ export function ProjectsSection() {
           <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary">
             My Projects
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base md:text-lg text-muted-foreground">
             A selection of projects I've worked on.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
