@@ -33,6 +33,20 @@ export const Icons = {
   Download,
   Send,
   BarChart,
+  Logo: (props: LucideProps) => (
+    <svg
+      {...props}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M10 18V6h5a4 4 0 0 1 0 8h-5" />
+      <path d="M12 18a6 6 0 1 1 0-12h2" />
+    </svg>
+  ),
   React: (props: LucideProps) => (
     <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="12" r="2"></circle>

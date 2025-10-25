@@ -29,7 +29,7 @@ export function Header() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="font-headline text-xl font-bold text-primary">
-          {personalData.name.split(" ")[0]}
+          <Icons.Logo className="h-8 w-8 text-primary" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
@@ -55,7 +55,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="flex flex-col space-y-6 pt-10">
                 <Link href="/" className="font-headline text-xl font-bold text-primary" onClick={() => setMobileMenuOpen(false)}>
-                  {personalData.name.split(" ")[0]}
+                  <Icons.Logo className="h-8 w-8 text-primary" />
                 </Link>
                 {navigationLinks.map((link) => (
                   <Link
