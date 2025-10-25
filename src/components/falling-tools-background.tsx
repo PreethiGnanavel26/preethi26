@@ -38,7 +38,7 @@ export function FallingToolsBackground() {
           >
             <skill.icon
               className={cn(
-                "h-6 w-6 text-foreground/5 opacity-50",
+                "h-6 w-6 text-foreground/10",
                 `icon-${index % 5}`
               )}
             />
